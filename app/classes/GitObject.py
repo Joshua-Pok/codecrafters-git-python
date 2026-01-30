@@ -8,7 +8,7 @@ class GitObject:
     def __init__(self, obj_type: str, content: bytes):
         self.type = obj_type
         self.content = content
-        self.hash = self.compute_hash
+        self.hash = self.compute_hash()
          
 
 
